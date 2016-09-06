@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FechaFinal" targetNamespace="http://tempuri.org/FechaFinal.xsd" xmlns:mstns="http://tempuri.org/FechaFinal.xsd" xmlns="http://tempuri.org/FechaFinal.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="StringConeccionBD" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="StringConeccionBD (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Mantenimiento_Predictivo.Properties.Settings.GlobalReference.Default.StringConeccionBD" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Vibracion_CompresorTableAdapter" GeneratorDataComponentClassName="Vibracion_CompresorTableAdapter" Name="Vibracion_Compresor" UserDataComponentName="Vibracion_CompresorTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="StringConeccionBD (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        MAX(Date) AS FechaFinal
+FROM            dbo.Vibracion_Compresor</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="FechaFinal" DataSetColumn="FechaFinal" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="FechaFinal" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="FechaFinal" msprop:Generator_UserDSName="FechaFinal">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Vibracion_Compresor" msprop:Generator_TableClassName="Vibracion_CompresorDataTable" msprop:Generator_TableVarName="tableVibracion_Compresor" msprop:Generator_RowChangedName="Vibracion_CompresorRowChanged" msprop:Generator_TablePropName="Vibracion_Compresor" msprop:Generator_RowDeletingName="Vibracion_CompresorRowDeleting" msprop:Generator_RowChangingName="Vibracion_CompresorRowChanging" msprop:Generator_RowEvHandlerName="Vibracion_CompresorRowChangeEventHandler" msprop:Generator_RowDeletedName="Vibracion_CompresorRowDeleted" msprop:Generator_RowClassName="Vibracion_CompresorRow" msprop:Generator_UserTableName="Vibracion_Compresor" msprop:Generator_RowEvArgName="Vibracion_CompresorRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FechaFinal" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFechaFinal" msprop:Generator_ColumnPropNameInRow="FechaFinal" msprop:Generator_ColumnPropNameInTable="FechaFinalColumn" msprop:Generator_UserColumnName="FechaFinal" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

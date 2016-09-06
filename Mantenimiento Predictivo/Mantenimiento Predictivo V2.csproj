@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D3318896-41D2-431F-B72E-79279C462FA6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mantenimiento_Predictivo</RootNamespace>
+    <AssemblyName>Mantenimiento Predictivo</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accord">
+      <HintPath>.\Accord.dll</HintPath>
+    </Reference>
+    <Reference Include="Accord.Controls">
+      <HintPath>.\Accord.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Accord.MachineLearning">
+      <HintPath>.\Accord.MachineLearning.dll</HintPath>
+    </Reference>
+    <Reference Include="Accord.Math">
+      <HintPath>.\Accord.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="Accord.Statistics">
+      <HintPath>.\Accord.Statistics.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge">
+      <HintPath>.\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Math">
+      <HintPath>.\AForge.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph">
+      <HintPath>..\..\..\Archivos Personales\Documentos\Dropbox\Proyectos Programacion\Librerias\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\Crear_Entradas.cs" />
+    <Compile Include="Clases\ExportarExcel.cs" />
+    <Compile Include="Clases\Grafico.cs" />
+    <Compile Include="Clases\ManejoBaseDatos.cs" />
+    <Compile Include="Clases\ParseDBF.cs" />
+    <Compile Include="Clases\PerceptronMulticapa.cs" />
+    <Compile Include="Clases\Serializar.cs" />
+    <Compile Include="Clases\VisualizarDatos.cs" />
+    <Compile Include="DataSet_\FechaFinal.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FechaFinal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet_\FechaInicio.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FechaInicio.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet_\SensoresVibracion.cs">
+      <DependentUpon>SensoresVibracion.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Interfaz\VisualizarPresionActual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\VisualizarPresionActual.Designer.cs">
+      <DependentUpon>VisualizarPresionActual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\VisualizarTemperaturaActual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\VisualizarTemperaturaActual.Designer.cs">
+      <DependentUpon>VisualizarTemperaturaActual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\VisualizarVibracionActual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\VisualizarVibracionActual.Designer.cs">
+      <DependentUpon>VisualizarVibracionActual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMantenimiento.Designer.cs">
+      <DependentUpon>MainMantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataSet_\SensoresVibracion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SensoresVibracion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet_\SensoresTemperatura.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SensoresTemperatura.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet_\SensoresPresion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SensoresPresion.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Interfaz\VisualizarPresionActual.resx">
+      <DependentUpon>VisualizarPresionActual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\VisualizarTemperaturaActual.resx">
+      <DependentUpon>VisualizarTemperaturaActual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\VisualizarVibracionActual.resx">
+      <DependentUpon>VisualizarVibracionActual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMantenimiento.resx">
+      <DependentUpon>MainMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="DataSet_\FechaFinal.xsc">
+      <DependentUpon>FechaFinal.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_\FechaFinal.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FechaFinal.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet_\FechaFinal.xss">
+      <DependentUpon>FechaFinal.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_\FechaInicio.xsc">
+      <DependentUpon>FechaInicio.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_\FechaInicio.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FechaInicio.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet_\FechaInicio.xss">
+      <DependentUpon>FechaInicio.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="DataSet_\SensoresVibracion.xsc">
+      <DependentUpon>SensoresVibracion.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_\SensoresVibracion.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SensoresVibracion.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet_\SensoresVibracion.xss">
+      <DependentUpon>SensoresVibracion.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_\SensoresTemperatura.xsc">
+      <DependentUpon>SensoresTemperatura.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_\SensoresTemperatura.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SensoresTemperatura.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet_\SensoresTemperatura.xss">
+      <DependentUpon>SensoresTemperatura.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_\SensoresPresion.xsc">
+      <DependentUpon>SensoresPresion.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_\SensoresPresion.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SensoresPresion.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet_\SensoresPresion.xss">
+      <DependentUpon>SensoresPresion.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.4.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 4.0 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BaseDatos.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BaseDatos_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>BaseDatos.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SensoresTemperatura" targetNamespace="http://tempuri.org/SensoresTemperatura.xsd" xmlns:mstns="http://tempuri.org/SensoresTemperatura.xsd" xmlns="http://tempuri.org/SensoresTemperatura.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="StringConeccionBD" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="StringConeccionBD (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Mantenimiento_Predictivo.Properties.Settings.GlobalReference.Default.StringConeccionBD" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Sensores_MaquinasTableAdapter" GeneratorDataComponentClassName="Sensores_MaquinasTableAdapter" Name="Sensores_Maquinas" UserDataComponentName="Sensores_MaquinasTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="StringConeccionBD (Settings)" DbObjectName="dbo.Sensores_Maquinas" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Nombre_Sensor
+FROM            Sensores_Maquinas
+WHERE        (ID_Maquina = 1) AND (Tipo_Sensor LIKE N'Temperatura')</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Nombre_Sensor" DataSetColumn="Nombre_Sensor" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SensoresTemperatura" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="SensoresTemperatura" msprop:Generator_UserDSName="SensoresTemperatura">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Sensores_Maquinas" msprop:Generator_TableClassName="Sensores_MaquinasDataTable" msprop:Generator_TableVarName="tableSensores_Maquinas" msprop:Generator_TablePropName="Sensores_Maquinas" msprop:Generator_RowDeletingName="Sensores_MaquinasRowDeleting" msprop:Generator_RowChangingName="Sensores_MaquinasRowChanging" msprop:Generator_RowEvHandlerName="Sensores_MaquinasRowChangeEventHandler" msprop:Generator_RowDeletedName="Sensores_MaquinasRowDeleted" msprop:Generator_UserTableName="Sensores_Maquinas" msprop:Generator_RowChangedName="Sensores_MaquinasRowChanged" msprop:Generator_RowEvArgName="Sensores_MaquinasRowChangeEvent" msprop:Generator_RowClassName="Sensores_MaquinasRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nombre_Sensor" msprop:Generator_ColumnVarNameInTable="columnNombre_Sensor" msprop:Generator_ColumnPropNameInRow="Nombre_Sensor" msprop:Generator_ColumnPropNameInTable="Nombre_SensorColumn" msprop:Generator_UserColumnName="Nombre_Sensor">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1073741823" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

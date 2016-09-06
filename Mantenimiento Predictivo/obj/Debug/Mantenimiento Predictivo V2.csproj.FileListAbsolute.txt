@@ -1,0 +1,97 @@
+D:\Proyecto Avanzada\Proyecto Avanzada\Mantenimiento Predictivo\bin\Debug\Mantenimiento Predictivo.exe.config
+D:\Proyecto Avanzada\Proyecto Avanzada\Mantenimiento Predictivo\bin\Debug\BaseDatos.mdf
+D:\Proyecto Avanzada\Proyecto Avanzada\Mantenimiento Predictivo\bin\Debug\BaseDatos_log.ldf
+D:\Proyecto Avanzada\Proyecto Avanzada\Mantenimiento Predictivo\bin\Debug\Mantenimiento Predictivo.exe
+D:\Proyecto Avanzada\Proyecto Avanzada\Mantenimiento Predictivo\bin\Debug\Mantenimiento Predictivo.pdb
+D:\Proyecto Avanzada\Proyecto Avanzada\Mantenimiento Predictivo\bin\Debug\ZedGraph.dll
+D:\Proyecto Avanzada\Proyecto Avanzada\Mantenimiento Predictivo\obj\Debug\Mantenimiento Predictivo V2.csprojResolveAssemblyReference.cache
+D:\Proyecto Avanzada\Proyecto Avanzada\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.MainMantenimiento.resources
+D:\Proyecto Avanzada\Proyecto Avanzada\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.Properties.Resources.resources
+D:\Proyecto Avanzada\Proyecto Avanzada\Mantenimiento Predictivo\obj\Debug\Mantenimiento Predictivo V2.csproj.GenerateResource.Cache
+D:\Proyecto Avanzada\Proyecto Avanzada\Mantenimiento Predictivo\obj\Debug\Mantenimiento Predictivo.exe
+D:\Proyecto Avanzada\Proyecto Avanzada\Mantenimiento Predictivo\obj\Debug\Mantenimiento Predictivo.pdb
+D:\Proyecto Avanzada\Mantenimiento Predictivo\bin\Debug\Mantenimiento Predictivo.exe.config
+D:\Proyecto Avanzada\Mantenimiento Predictivo\obj\Debug\Mantenimiento Predictivo.exe
+D:\Proyecto Avanzada\Mantenimiento Predictivo\obj\Debug\Mantenimiento Predictivo.pdb
+D:\Proyecto Avanzada\Mantenimiento Predictivo\bin\Debug\BaseDatos.mdf
+D:\Proyecto Avanzada\Mantenimiento Predictivo\bin\Debug\BaseDatos_log.ldf
+D:\Proyecto Avanzada\Mantenimiento Predictivo\bin\Debug\Mantenimiento Predictivo.exe
+D:\Proyecto Avanzada\Mantenimiento Predictivo\bin\Debug\Mantenimiento Predictivo.pdb
+D:\Proyecto Avanzada\Mantenimiento Predictivo\obj\Debug\Mantenimiento Predictivo V2.csprojResolveAssemblyReference.cache
+D:\Proyecto Avanzada\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.MainMantenimiento.resources
+D:\Proyecto Avanzada\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.Properties.Resources.resources
+D:\Proyecto Avanzada\Mantenimiento Predictivo\obj\Debug\Mantenimiento Predictivo V2.csproj.GenerateResource.Cache
+D:\Proyecto Avanzada\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.Interfaz.VisualizarPresionActual.resources
+D:\Proyecto Avanzada\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.Interfaz.VisualizarTemperaturaActual.resources
+D:\Proyecto Avanzada\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.Interfaz.VisualizarVibracionActual.resources
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\bin\Debug\Mantenimiento Predictivo.exe.config
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\obj\Debug\Mantenimiento Predictivo.exe
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\obj\Debug\Mantenimiento Predictivo.pdb
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\bin\Debug\BaseDatos.mdf
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\bin\Debug\BaseDatos_log.ldf
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\bin\Debug\Mantenimiento Predictivo.exe
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\bin\Debug\Mantenimiento Predictivo.pdb
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\bin\Debug\Accord.Controls.dll
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\bin\Debug\Accord.dll
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\bin\Debug\Accord.MachineLearning.dll
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\bin\Debug\Accord.Math.dll
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\bin\Debug\Accord.Statistics.dll
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\bin\Debug\AForge.dll
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\bin\Debug\AForge.Math.dll
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\obj\Debug\Mantenimiento Predictivo V2.csprojResolveAssemblyReference.cache
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.Interfaz.VisualizarPresionActual.resources
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.Interfaz.VisualizarTemperaturaActual.resources
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.Interfaz.VisualizarVibracionActual.resources
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.MainMantenimiento.resources
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.Properties.Resources.resources
+D:\Versiones Mantenimiento Predictivo\1\Mantenimiento Predictivo\obj\Debug\Mantenimiento Predictivo V2.csproj.GenerateResource.Cache
+D:\Mantenimiento Predictivo\bin\Debug\Mantenimiento Predictivo.exe.config
+D:\Mantenimiento Predictivo\obj\Debug\Mantenimiento Predictivo.exe
+D:\Mantenimiento Predictivo\obj\Debug\Mantenimiento Predictivo V2.csprojResolveAssemblyReference.cache
+D:\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.Interfaz.VisualizarPresionActual.resources
+D:\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.Interfaz.VisualizarTemperaturaActual.resources
+D:\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.Interfaz.VisualizarVibracionActual.resources
+D:\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.MainMantenimiento.resources
+D:\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.Properties.Resources.resources
+D:\Mantenimiento Predictivo\obj\Debug\Mantenimiento Predictivo V2.csproj.GenerateResource.Cache
+D:\Mantenimiento Predictivo\bin\Debug\BaseDatos.mdf
+D:\Mantenimiento Predictivo\bin\Debug\BaseDatos_log.ldf
+D:\Mantenimiento Predictivo\bin\Debug\Mantenimiento Predictivo.exe
+D:\Mantenimiento Predictivo\bin\Debug\Mantenimiento Predictivo.pdb
+D:\Mantenimiento Predictivo\bin\Debug\Accord.Controls.dll
+D:\Mantenimiento Predictivo\bin\Debug\Accord.dll
+D:\Mantenimiento Predictivo\bin\Debug\Accord.MachineLearning.dll
+D:\Mantenimiento Predictivo\bin\Debug\Accord.Math.dll
+D:\Mantenimiento Predictivo\bin\Debug\Accord.Statistics.dll
+D:\Mantenimiento Predictivo\bin\Debug\AForge.dll
+D:\Mantenimiento Predictivo\bin\Debug\AForge.Math.dll
+D:\Mantenimiento Predictivo\bin\Debug\ZedGraph.dll
+D:\Mantenimiento Predictivo\obj\Debug\Mantenimiento Predictivo.pdb
+D:\Avanzada\MP_2\Mantenimiento Predictivo\bin\Debug\Mantenimiento Predictivo.exe.config
+D:\Avanzada\MP_2\Mantenimiento Predictivo\obj\Debug\Mantenimiento Predictivo.exe
+D:\Avanzada\MP_2\Mantenimiento Predictivo\obj\Debug\Mantenimiento Predictivo.pdb
+D:\Avanzada\MP_2\Mantenimiento Predictivo\bin\Debug\BaseDatos.mdf
+D:\Avanzada\MP_2\Mantenimiento Predictivo\bin\Debug\BaseDatos_log.ldf
+D:\Avanzada\MP_2\Mantenimiento Predictivo\bin\Debug\Mantenimiento Predictivo.exe
+D:\Avanzada\MP_2\Mantenimiento Predictivo\bin\Debug\Mantenimiento Predictivo.pdb
+D:\Avanzada\MP_2\Mantenimiento Predictivo\bin\Debug\Accord.Controls.dll
+D:\Avanzada\MP_2\Mantenimiento Predictivo\bin\Debug\Accord.dll
+D:\Avanzada\MP_2\Mantenimiento Predictivo\bin\Debug\Accord.MachineLearning.dll
+D:\Avanzada\MP_2\Mantenimiento Predictivo\bin\Debug\Accord.Math.dll
+D:\Avanzada\MP_2\Mantenimiento Predictivo\bin\Debug\Accord.Statistics.dll
+D:\Avanzada\MP_2\Mantenimiento Predictivo\bin\Debug\AForge.dll
+D:\Avanzada\MP_2\Mantenimiento Predictivo\bin\Debug\AForge.Math.dll
+D:\Avanzada\MP_2\Mantenimiento Predictivo\obj\Debug\Mantenimiento Predictivo V2.csprojResolveAssemblyReference.cache
+D:\Avanzada\MP_2\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.Interfaz.VisualizarPresionActual.resources
+D:\Avanzada\MP_2\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.Interfaz.VisualizarTemperaturaActual.resources
+D:\Avanzada\MP_2\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.Interfaz.VisualizarVibracionActual.resources
+D:\Avanzada\MP_2\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.MainMantenimiento.resources
+D:\Avanzada\MP_2\Mantenimiento Predictivo\obj\Debug\Mantenimiento_Predictivo.Properties.Resources.resources
+D:\Avanzada\MP_2\Mantenimiento Predictivo\obj\Debug\Mantenimiento Predictivo V2.csproj.GenerateResource.Cache
+D:\Proyecto avanzada\Mantenimiento Predictivo\bin\Debug\Accord.Controls.dll
+D:\Proyecto avanzada\Mantenimiento Predictivo\bin\Debug\Accord.dll
+D:\Proyecto avanzada\Mantenimiento Predictivo\bin\Debug\Accord.MachineLearning.dll
+D:\Proyecto avanzada\Mantenimiento Predictivo\bin\Debug\Accord.Math.dll
+D:\Proyecto avanzada\Mantenimiento Predictivo\bin\Debug\Accord.Statistics.dll
+D:\Proyecto avanzada\Mantenimiento Predictivo\bin\Debug\AForge.dll
+D:\Proyecto avanzada\Mantenimiento Predictivo\bin\Debug\AForge.Math.dll
